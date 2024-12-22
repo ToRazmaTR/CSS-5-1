@@ -8,10 +8,12 @@ body {
     background-color: #07081A;
 }
 
-.maincontainer {
+.headercontainer {
     display: flex;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    border-bottom: 1px solid #261C51;
+    height: 64px;
 }
 
 header {
@@ -20,10 +22,16 @@ header {
 }
 
 .navigation {
-    display: flex;  
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
+}
 
+
+.maincontainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .cloudo {
@@ -89,6 +97,7 @@ h1 {
     max-width: 1040px;
     width: 100%;
     margin-top: 88px;
+    flex-wrap: wrap;
 }
 
 .logoandp {
@@ -105,6 +114,7 @@ h1 {
     justify-content: center;
     margin-bottom: 88px;
     margin-top: 88px;
+    flex-wrap: wrap;
 }
 
 
@@ -114,6 +124,7 @@ h1 {
     align-items: center;
     gap: 64px;
     justify-content: space-between;
+   
 }
 
 .bigp {
@@ -136,8 +147,9 @@ h1 {
 .footerdiv {
     display: flex;
     justify-content: space-around;
-    gap: 463px;
-    padding: 20px 200px;
+    border-top: 1px solid #261C51;
+    height: 64px;
+    align-items: center;
 }
 
 .allrightreserved {
