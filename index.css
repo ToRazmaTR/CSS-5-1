@@ -14,11 +14,16 @@ body {
     flex-direction: column;
 }
 
+header {
+    max-width: 1040px;
+    width: 100%;
+}
+
 .navigation {
     display: flex;  
     align-items: center;
     justify-content: space-between;
-    width: 1040px;
+
 }
 
 .cloudo {
@@ -81,7 +86,8 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
-    width: 1040px;
+    max-width: 1040px;
+    width: 100%;
     margin-top: 88px;
 }
 
